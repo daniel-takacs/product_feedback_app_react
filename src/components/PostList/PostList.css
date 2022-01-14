@@ -1,0 +1,19 @@
+.suggestion_box_container {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 151px;
+    align-items: center;
+    margin: 25px 0 15px 0;
+    border-radius: 15px;
+}
+.feedback_center {
+    width: 500px;
+}
+.feedback_right {
+    display: flex;
+    align-items: center;
+}
+.feedback_right > img {
+    margin-right: 10px;
+}

@@ -1,0 +1,13 @@
+.header-left {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.header-left > h4 {
+  padding-right: 25px;
+}
+#sort {
+  width: 160px;
+  color: white;
+  background-color: #373F68;
+}

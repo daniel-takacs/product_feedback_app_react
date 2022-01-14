@@ -5,10 +5,10 @@ export const PostContext = createContext()
 
 export const PostProvider = ({ children }) => {
 
-    const [post, setPost] = useState(Data.productRequests)
+    const [posts, setPosts] = useState(Data.productRequests)
 
     return (
-        <PostContext.Provider value={[post, setPost]}>
+        <PostContext.Provider value={[posts, setPosts]}>
             {children}
         </PostContext.Provider>
     )
